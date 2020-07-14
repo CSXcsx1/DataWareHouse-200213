@@ -30,6 +30,7 @@ public class EsWriterByBulk {
         Stu stu2 = new Stu("ziyang",8L);
         Stu stu3 = new Stu("liuqian",186L);
 
+        System.out.println("vcs");
         Index index1 = new Index.Builder(stu1).id("1006").build();
         Index index2 = new Index.Builder(stu2).id("1007").build();
         Index index3 = new Index.Builder(stu3).id("1008").build();
